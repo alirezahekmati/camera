@@ -27,6 +27,6 @@ function main() {
 }
 
 function updateCanvas() {
-  CONTEXT.drawImage(VIDEO, 0, 0);
+  CONTEXT.drawImage(VIDEO, 0, 0, 1300, 1100);
   window.requestAnimationFrame(updateCanvas);
 }
